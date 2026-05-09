@@ -10,7 +10,7 @@
 
 </div>
 
-![Windthink's GitHub stats](https://github-readme-stats.vercel.app/api?username=fengzhongsikao&show_icons=true&theme=tokyonight)
+![Windthink's GitHub stats](https://github-readme-stats-delta-sandy-53.vercel.app/api?username=fengzhongsikao&show_icons=true&theme=tokyonight)
 
 ![头像](image/image.png)
 
