@@ -33,7 +33,7 @@
 | 项目 | 描述 | 技术栈 | 链接 |
 |------|------|--------|------|
 | 风起 · 诗词 | 在线诗词鉴赏平台 | Next.js, TypeScript, Tailwind CSS | [windstart.top](https://windstart.top) |
-| Wind Resume | 支付宝小程序简历生成器 | TypeScript, 支付宝小程序, Less | [GitHub](https://github.com/fengzhongsikao/windResume) |
+| Windmusic | 跨平台桌面音乐客户端 | Go, Svelte 5, TypeScript, Wails v2 | [GitHub](https://github.com/fengzhongsikao/windmusic) |
 | 风筮 · Windnote | 易经占卜桌面应用 | Go, React, Wails | [GitHub](https://github.com/fengzhongsikao/windnote) |
 
 ---
@@ -63,28 +63,35 @@ Next.js 16 · React 19 · TypeScript · Tailwind CSS v4 · shadcn/ui · Lucide
 
 ---
 
-## Wind Resume · 简历生成器
+## Windmusic · 桌面音乐客户端
 
-> **项目地址：** [github.com/fengzhongsikao/windResume](https://github.com/fengzhongsikao/windResume)
+> **项目地址：** [github.com/fengzhongsikao/windmusic](https://github.com/fengzhongsikao/windmusic)
+>
+> **演示视频：** [B 站](https://www.bilibili.com/video/BV1L8V36bEFW/)
 
-一款在支付宝小程序端运行的简历制作工具，提供丰富的模板和模块化编辑能力，支持导出 PDF。
+基于 Wails v2 的跨平台桌面音乐客户端，支持在线搜索播放与本地音乐库管理。
 
 ### 功能特性
 
-- **模块化编辑** — 支持求职意向、教育经历、实习经历、工作经历、项目经历、技能特长、兴趣爱好、自我评价等 8 种模块，自由组合
-- **10 套精美模板** — 涵盖经典蓝、简约白、商务黑、优雅紫、清新绿、暖橙、科技灰、文艺风、极简风、双栏布局等多种风格
-- **PDF 导出** — 基于 Canvas 渲染简历并生成 PDF，无需第三方库
-- **本地存储** — 使用 zustand 管理状态，数据持久化保存在本地
+- **首页发现** — 推荐 / 华语 / 流行 / 摇滚 / 电子等分类 Tab，通过 Meting 搜索拉取曲目
+- **搜索** — 关键词搜索、分页，顶栏全局搜索框快捷进入
+- **沉浸式歌词** — 歌曲详情页频谱可视化 + LRC 歌词同步滚动，点击歌词可跳转
+- **本地音乐** — 扫描 MP3/FLAC/M4A 等格式，读取内嵌封面与歌词，SQLite 持久化
+- **我喜欢的音乐** — 收藏管理，支持编辑、全选、批量删除
+- **歌单系统** — 创建、删除歌单，向歌单添加/移除歌曲，侧边栏快速访问
+- **最近播放** — 自动记录播放历史，支持清空与编辑
+- **设置** — 配置多个 Meting API 节点，灵活切换数据源
 
 ### 技术栈
 
-TypeScript · 支付宝小程序 · Less · antd-mini · zustand
+**桌面框架：** Wails v2 · **后端：** Go · **前端：** Svelte 5 · TypeScript · Vite 8 · Tailwind CSS 4
+**JS 运行时：** Bun · **路由：** svelte-spa-router · **持久化：** SQLite（本地库）+ JSON（收藏/歌单/设置）
 
 ### 截图
 
-| 首页 | 简历详情 |
-|------|---------|
-| ![首页](images/resume/resumeHome.png) | ![详情](images/resume/resumeDetail.png) |
+| 首页发现 | 本地音乐 | 最近播放 |
+|---------|---------|---------|
+| ![](https://github.com/fengzhongsikao/windmusic/raw/master/images/home.png) | ![](https://github.com/fengzhongsikao/windmusic/raw/master/images/local.png) | ![](https://github.com/fengzhongsikao/windmusic/raw/master/images/recent.png) |
 
 ---
 
