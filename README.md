@@ -35,6 +35,7 @@
 | 风起 · 诗词 | 在线诗词鉴赏平台 | Next.js, TypeScript, Tailwind CSS | [windstart.top](https://windstart.top) |
 | Windmusic | 跨平台桌面音乐客户端 | Go, Svelte 5, TypeScript, Wails v2 | [GitHub](https://github.com/fengzhongsikao/windmusic) |
 | 风筮 · Windnote | 易经占卜桌面应用 | Go, React, Wails | [GitHub](https://github.com/fengzhongsikao/windnote) |
+| 风起导航 | 精选网址导航，收录 200+ 优质网站 | TypeScript, Next.js, Tailwind CSS | [windtop.top](https://www.windtop.top) |
 
 ---
 
@@ -119,5 +120,31 @@ Next.js 16 · React 19 · TypeScript · Tailwind CSS v4 · shadcn/ui · Lucide
 | 首页 | 六爻详情 | 梅花详情 |
 |------|---------|---------|
 | ![首页](images/zanbu/home.png) | ![六爻](images/zanbu/liudetail.png) | ![梅花](images/zanbu/mwihuadetail.png) |
+
+---
+
+## 风起导航
+
+> **在线体验：** [windtop.top](https://www.windtop.top)
+>
+> **项目地址：** [github.com/fengzhongsikao/windnav](https://github.com/fengzhongsikao/windnav)
+
+精选网址导航站，收录 200+ 优质网站资源，涵盖推荐工具、个人博客、导航网站、AI 对话、AI 创作等分类。
+
+### 功能特性
+
+- **推荐网站** — 精选实用工具与平台
+- **个人博客** — 收录优质技术博客与个人站点
+- **导航网站** — 汇集各类导航资源
+- **AI 对话** — ChatGPT、DeepSeek、Kimi 等主流 AI 对话工具
+- **AI 创作** — Midjourney、Liblib 等 AI 创作平台
+
+### 技术栈
+
+TypeScript · Next.js · Tailwind CSS
+
+### 截图
+
+![风起导航](images/daohang/iShot_2026-07-25_14.54.00.png)
 
 ---
