@@ -1,6 +1,6 @@
 <div align="center">
 
-![Windthink's GitHub stats](https://github-readme-stats-delta-sandy-53.vercel.app/api?username=fengzhongsikao&show_icons=true&theme=tokyonight)
+![Windthink's GitHub stats](https://github-profile-views-plum.vercel.app/github/username=fengzhongsikao?theme=tokyonight)
 
 <p align="center">
   <img src="images/image.png" alt="头像" />
